@@ -49,7 +49,7 @@ public class GraphicalMaze extends Maze {
 		south.add(slider);
 		south.add(new JLabel("fast"));
 		
-		JFrame frame = new JFrame("CSE 373 Maze Solver");
+		JFrame frame = new JFrame("Maze Solver");
 		frame.add(center);
 		frame.add(south, BorderLayout.SOUTH);
 		frame.pack();
